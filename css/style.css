@@ -30,7 +30,6 @@ body {
 .header-links {
     display: flex;
     height: 20px;
-    align-items: center;
     list-style-type: none;
     gap: 30px;
     color: #b0bec5;
