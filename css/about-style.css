@@ -48,3 +48,18 @@ a {
     text-decoration: none;
     color: #b0bec5;
 }
+
+/* Temporary Error */
+
+h1 {
+    padding: 50px;
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Temporary Error */
