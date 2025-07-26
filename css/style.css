@@ -4,6 +4,7 @@
     padding: 0;
     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     
+    
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 .header-links {
     display: flex;
     height: 20px;
+    align-items: center;
     list-style-type: none;
     gap: 30px;
     color: #b0bec5;
@@ -43,7 +45,8 @@ body {
     padding: 10px;
     border-radius: 24px;
     border: 0;
-    flex-shrink: 0;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 .hero {
