@@ -80,22 +80,30 @@ p {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    min-height: 400px;
     align-items: center;
     justify-content: center;
     gap: 100px;
-    flex:1;
+    flex: 1;
     padding-top: 50px;
 
 }
 
+.about-header img{
+    display: flex;
+    flex: 1 1 auto;
+}
+
 .about-title {
+    display: flex;
+    /* flex:1 1 auto; */
     font-size: 48px;
     color: #fff;
     margin-right: 200px;
     border-bottom: 4px solid #00f0ff;
     padding-right: 600px;
     padding-left: 200px;
+    margin-bottom: 20px;
 }
 
 .facts {
