@@ -84,7 +84,7 @@ p {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    flex: 1;
+    flex: 0;
     padding-top: 50px;
 
 }
@@ -112,11 +112,13 @@ p {
     align-items: center;
     gap: 100px;
     padding-block: 100px;
+    margin-inline: 150px;
+    flex-wrap: wrap;
 }
 
 .pars {
     display: flex;
-    gap: 300px;
+    gap: 200px;
     flex-wrap: wrap;
     align-items: center;
     
